@@ -9,23 +9,23 @@ Gem::Specification.new do |s|
   s.authors = ["Thomas Statter"]
   s.description = "Comprehensive Excel/CSV import/export for Spree, Products,Images, any model with full associations"
   s.email = "rubygems@autotelik.co.uk"
-  
-  s.files = FileList["datashift_spree.thor", 
+
+  s.files = FileList["datashift_spree.thor",
     "README.markdown",
     "datashift_spree.gemspec",
-    'VERSION', 
-    "LICENSE.txt", 
+    'VERSION',
+    "LICENSE.txt",
     "{lib}/**/*"].exclude("rdoc").exclude("nbproject").exclude("fixtures").exclude(".log").exclude(".contrib").to_a
-  
+
   s.test_files = FileList["{spec}/*"]
-  
+
   s.homepage = "http://github.com/autotelik/datashift_spree"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.15"
   s.summary = "Product and image import/export for Spree from Excel/CSV"
 
-  s.add_runtime_dependency 'rails', '>= 4.2', '< 5.1'
+  s.add_runtime_dependency 'rails', '>= 4.2', '< 5.2'
   s.add_runtime_dependency 'datashift'
   s.add_runtime_dependency 'mechanize', '~> 2.6', '>= 2.6.0'
 
