@@ -247,7 +247,7 @@ module DataShift
         end
       end
 
-      include SpreeLoading
+      include ::DataShift::SpreeLoading
       include DataShift::ExcelBase
 
       attr_accessor :import_file_name

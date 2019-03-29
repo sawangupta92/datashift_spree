@@ -12,7 +12,7 @@ module DataShift
   class SpreeLoaderBase < LoaderBase
 
     include DataShift::ImageLoading
-    include DataShift::SpreeLoading
+    include ::DataShift::SpreeLoading
 
     def initialize
       super()

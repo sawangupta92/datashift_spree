@@ -5,7 +5,7 @@ module DataShift
   module SpreeEcom
     class ShopifyCustomerLoader
 
-      include DataShift::SpreeLoading
+      include ::DataShift::SpreeLoading
 
       attr_accessor :file_name
 
